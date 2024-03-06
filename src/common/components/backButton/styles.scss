@@ -1,3 +1,4 @@
+@use "@/theme/functions.module.scss";
 .back-button {
   display: flex;
   align-items: center;
@@ -18,7 +19,7 @@
   > p {
     margin: 0 !important;
     color: #fff;
-    font-size: 24px;
+    font-size: calculateRem(16);
     font-weight: 500;
   }
 }

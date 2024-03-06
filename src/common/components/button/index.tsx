@@ -5,7 +5,7 @@ import { getBackgroundColor, getBorderColor, getFontColor } from "./utils";
 function Button({
   title,
   onClick,
-  variant = "primary",
+  variant = "secondary",
   testID,
 
   disabled = false,

@@ -1,10 +1,11 @@
+import styles from "@/theme/colors.module.scss";
 import { IButtonVariant } from "./types";
 
 export const getBackgroundColor = (variant: IButtonVariant) => {
   const colorMap: Record<IButtonVariant, string> = {
-    primary: "orange",
-    secondary: "white",
-    tertiary: "transparent",
+    primary: styles.primary,
+    secondary: styles.secondary,
+    tertiary: styles.tertiary,
     dark: "darkGrey",
   };
 

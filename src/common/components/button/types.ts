@@ -1,3 +1,5 @@
+import styles from "@/theme/colors.module.scss";
+
 type IButtonProps = {
   onClick: () => void;
   title: string;
@@ -5,6 +7,7 @@ type IButtonProps = {
   isLoading?: boolean;
   variant?: IButtonVariant;
   testID?: string;
+  color?: keyof typeof styles;
 };
 
 type IButtonVariant = "primary" | "secondary" | "tertiary" | "dark";

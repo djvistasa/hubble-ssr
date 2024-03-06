@@ -1,0 +1,11 @@
+$primary: orange;
+$secondary: blue;
+$tertiary: green;
+$disabled: rgba(0, 0, 0, 0.5);
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  tertiary: $tertiary;
+  disabled: $disabled;
+}
